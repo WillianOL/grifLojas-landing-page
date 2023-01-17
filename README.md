@@ -38,7 +38,7 @@
   <img src= "https://user-images.githubusercontent.com/112639055/213035436-0369a73e-890e-46f9-8bff-233dce2b4bc5.png" border-radius='20px' width='850px'>
   <img src= "https://user-images.githubusercontent.com/112639055/213035559-23a600dc-cb84-4fb2-9948-7ec510cc7c35.png" border-radius='20px' width='850px'>
  </div> 
-  <p>Com o tamanho de tela adaptado para celulares, utilizando de <strong>MediaQueries, as letras e a imagem se adaptam mudando até mesmo sua ordem na tela e ficando uma abaixo da outra</strong></p>
+  <p>Com o tamanho de tela adaptado para celulares, utilizando de <strong>MediaQueries, as letras e a imagem se adaptam mudando  até mesmo sua ordem na tela e ficando uma abaixo da outra</strong></p>
   
  <div align="center">
   <img src= "https://user-images.githubusercontent.com/112639055/213033572-2096b900-5168-4b1b-8e6d-d8e9fa4e0bde.png" border-radius='20px'>
@@ -49,8 +49,6 @@
    <img src= "https://user-images.githubusercontent.com/112639055/213036307-ae221a24-7e21-4425-9b4e-e66384b9e3f1.png" border-radius='20px'> <br>
    <img src= "https://user-images.githubusercontent.com/112639055/213036845-740fc98b-add5-472b-9f5a-d8d09344a3d2.jpeg" border-radius='20px' width='300px'>
   </div>
-  
-</div>
 
   ## Acessar projeto 😉
 
