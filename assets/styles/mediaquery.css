@@ -87,20 +87,22 @@
 
 
 @media (max-width: 639px){
+    /* Fazendo com que a imagem e o texto fiquem em coluna, um abaixo do outro. */
     .banner-bg{
         flex-direction: column;
     }
 
-    .banner{
-        margin-top: 80px;
-    }
-
+    /* Fazendo o mesmo para o texto e alinhando o botão da capa ao meio. */
     .textoCapa{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         order: 1;
+    }
+
+    .banner{
+        margin-top: 80px;
     }
 
     .textoCapa p{

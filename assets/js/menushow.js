@@ -6,3 +6,5 @@ function AbrirMenu(){
     let Menu = document.getElementById('NavMenu')
     Menu.classList.toggle('MenuMobile')
 }
+
+
