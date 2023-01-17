@@ -1,0 +1,126 @@
+@media (max-width: 960px){
+    .BtnMenu{
+        display: block;
+    }
+
+    .SubMenu-bg{
+        position: relative;
+    }
+
+    .conteinerNav{
+        display: none;
+    }
+
+    .MenuMobile{
+        display: flex;
+        position: absolute;
+        top: 140px;
+        left: 0px;
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.377);
+        border-radius: 0px 0px 50px 50px;
+        transition: all .5s ease;
+    }
+
+    .searchBar{
+        width: 90%;
+        flex: 0;
+    }
+
+    .searchBar label{
+        display: flex;
+        height: 40px;
+        align-items: center;
+    }
+
+    #barPesquisa{
+        height: 40px;
+    }
+
+    .conteinerNav ul li i{
+        font-size: 2em;
+        padding: 5px;
+        border-radius: 50%;
+        border: 2px solid black;
+        text-align: center;
+    }
+
+    .conteinerNav ul li i:hover{
+        background-color: #ffbc02;
+    }
+
+    .conteinerNav ul li{
+        text-align: center;
+    }
+
+    .header-bg{
+        justify-content: space-between;
+    } 
+}
+
+@media (max-width: 960px){
+
+    .textoCapa{
+        margin-right: 0px;
+        max-width: 400px;
+    }
+
+    .textoCapa p{
+        font-size: 2em;
+    }
+
+    .Img-conteiner img{
+        width: 230px;
+    }
+
+    .banner-bg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 500px;
+    }
+}
+
+
+@media (max-width: 639px){
+    .banner-bg{
+        flex-direction: column;
+    }
+
+    .banner{
+        margin-top: 80px;
+    }
+
+    .textoCapa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+
+    .textoCapa p{
+        font-size: 1.5em;
+        text-align: center;
+    }
+}
+
+@media (max-width: 455px){
+    .SubmenuConteiner p{
+        font-size: 0.8em;
+    }
+
+    .SubmenuConteiner{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 440px){
+    .header-bg{
+        margin: 0px 20px;
+    }
+}

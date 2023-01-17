@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/estiloPrincipal.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
+</head>
+<body>
+    <!--Header com a barra de pesquisa, logo e icones de interação/navegação-->
+    <header class="header-bg">
+            <div class="logo">
+                <span>Grif</span>Lojas
+            </div>
+
+            <nav class="conteinerNav" id="NavMenu"><!--Icones de navegação do site, perfil, carrinho e favoritos-->
+                <ul>
+                    <li><a href="#"><i class="material-symbols-outlined">star</i></a></li>
+                    <li><a href="#"><i class="material-symbols-outlined">shopping_bag</i></a></li>
+                    <li><a href="#"><i class="material-symbols-outlined">account_circle</i></a></li>
+                </ul>
+                <div class="searchBar"><!--Barra de pesquisa-->
+                    <label for="barPesquisa"><i class="material-symbols-outlined">search</i></label>
+                    <input type="text" name="barPesquisa" id="barPesquisa" placeholder="O que deseja?">
+                </div>
+            </nav>
+
+            <div class="BtnMenu" id="BtnMenu">
+                <i class="material-symbols-outlined">Menu</i>
+            </div>
+    </header>
+
+    <!--Menus e sub-menus, separados por categoria. Usando o ":hover" no css para fazelos aparecer na tela-->
+    <div class="SubMenu-bg">
+            <ul class="SubmenuConteiner">
+                <li>
+                    <p>VERÃO</p>
+                    <div class="ContentSubMenu">
+                        <ul>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                        </ul>
+
+                        <div class="ContentImg"> <!--Imagem de banner de cada sub-menu !Usado como background por conta de que a imagem irá se adaptar a cada tamanho de tela sem usar muito css-->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>FRIO</p>
+                    <div class="ContentSubMenu">
+                        <ul>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                        </ul>
+
+                        <div class="ContentImg img2">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>FESTAS</p>
+                    <div class="ContentSubMenu">
+                        <ul>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                        </ul>
+                        
+
+                        <div class="ContentImg img3">
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <p>ESPORTES</p>
+                    <div class="ContentSubMenu">
+                        <ul>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                            <li><a href="#">PRODUTO</a></li>
+                        </ul>
+
+                        <div class="ContentImg img4">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+    </div>
+
+    <main class="ConteinerPrincipal">
+        <!--Página inicial-->
+        <section class="banner-bg">
+            <div class="banner">
+                <!--Texto do banner junto com o botão de interação-->
+                <div class="textoCapa">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit cum <span>reprehenderit</span> quo praesentium.
+                    </p>
+                    <label for="barPesquisa">O que você está <span>buscando?</span></label>
+                </div>
+                <!--Imagem da página principal-->
+                <div class="Img-conteiner">
+                    <img src="../imagens/ModeloBanner.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/menushow.js"></script>
+</body>
+</html>
